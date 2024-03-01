@@ -1,0 +1,19 @@
+app = "<app>"
+primary_region = "<primary_region>"
+
+[env]
+PORT = "8080"
+
+[processes]
+app = "run -A src/main.ts"
+
+[http_service]
+processes = ["app"]
+internal_port = 8080
+force_https = true
+auto_start_machines = true
+auto_stop_machines = true
+min_machines_running = 0
+
+[[vm]]
+size = "shared-cpu-1x"

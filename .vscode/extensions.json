@@ -1,0 +1,13 @@
+{
+	"recommendations": [
+		"denoland.vscode-deno",
+		"ms-azuretools.vscode-docker",
+		"ReneSaarsoo.sql-formatter-vsc",
+		"styled-components.vscode-styled-components",
+		"tamasfe.even-better-toml",
+		"thebearingedge.vscode-sql-lit",
+		"vunguyentuan.vscode-css-variables",
+		"YoavBls.pretty-ts-errors",
+		"yy0931.vscode-sqlite3-editor"
+	]
+}
